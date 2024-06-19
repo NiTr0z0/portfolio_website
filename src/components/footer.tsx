@@ -3,7 +3,6 @@ const Footer = () => {
     <footer className="bg-dark text-center text-white">
       <div className="container p-4 pb-0">
         <section className="mb-4">
-          <text>You can find me on : </text>
           <a
             className="btn btn-outline-light btn-floating m-1"
             href="https://www.instagram.com/skabhinav_018/"
