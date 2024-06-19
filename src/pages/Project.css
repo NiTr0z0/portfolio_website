@@ -1,0 +1,23 @@
+.card-container {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+}
+
+.card-container-mobile {
+  padding: 5%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10%;
+}
+
+.main-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Electoral Bonds",
+    "buttonLink": "https://github.com/NiTr0z0/DCC_Assigment_4",
+    "buttonImagePath": "src\\assets\\github-mark-white.png",
+    "text": "Website analysing the Electoral Bond data released by the State Bank of India. It includes extensive functionality to retrieve data with a wide range of filters and includes functionality to display the data graphically with the option of exporting said graphs too. Tech Stack used: Flask, HTML, BootstrapCSS, JS, MySQL, chartJS, djinja2"
+  },
+
+  {
+    "title": "Image processing",
+    "buttonLink": "https://github.com/NiTr0z0/Image_Processing",
+    "buttonImagePath": "src\\assets\\github-mark-white.png",
+    "text": "Implemented the algorithms for Histogram Matching and Otsu's Binarization from scratch for transformation of Images. Done as a part of the course : Probability, Statistics and Data Visualization."
+  }
+]
