@@ -9,20 +9,25 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Project from "./pages/Project.tsx";
 import Interests from "./pages/Interests.tsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+    },
+    {
+      path: "/Projects",
+      element: <Project />,
+    },
+    {
+      path: "/Interests",
+      element: <Interests />,
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/Projects",
-    element: <Project />,
-  },
-  {
-    path: "/Interests",
-    element: <Interests />,
-  },
-]);
+    basename: "/portfolio_website",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
