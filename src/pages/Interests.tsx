@@ -1,7 +1,5 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Quote from "../components/Quote";
-import Footer from "../components/footer";
 
 const navbarItems = ["Projects", "Interests", "DSA"];
 
