@@ -42,7 +42,7 @@ const Project = () => {
             <Card
               title={item.title}
               buttonLink={item.buttonLink}
-              buttonImagePath={item.buttonImagePath}
+              buttonImageName={item.buttonImageName}
             >
               {item.text}
             </Card>
