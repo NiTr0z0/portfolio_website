@@ -5,11 +5,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./index.css";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Project from "./pages/Project.tsx";
 import Interests from "./pages/Interests.tsx";
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   [
     {
       path: "/",
