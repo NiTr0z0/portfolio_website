@@ -7,8 +7,8 @@ const navbarItems = ["Projects", "Interests", "CP"];
 function App() {
   return (
     <>
-      <Navbar logo="Abhinav SK" items={navbarItems} />
       <div className="main-page-container">
+        <Navbar logo="Abhinav Khot" items={navbarItems} />
         <Hero />
         <div className="footer">
           <Footer />

@@ -34,7 +34,7 @@ const Project = () => {
   return (
     <>
       <div className="main-page-container">
-        <Navbar logo="Abhinav SK" items={navbarItems} />
+        <Navbar logo="Abhinav Khot" items={navbarItems} />
         <div
           className={windowStatus ? "card-container-mobile" : "card-container"}
         >
@@ -48,9 +48,7 @@ const Project = () => {
             </Card>
           ))}
         </div>
-        <div className="footer">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </>
   );

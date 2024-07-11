@@ -1,12 +1,12 @@
 import Navbar from "../components/Navbar";
 import Quote from "../components/Quote";
 
-const navbarItems = ["Projects", "Interests", "DSA"];
+const navbarItems = ["Projects", "Interests", "CP"];
 
 const Interests = () => {
   return (
     <>
-      <Navbar logo="Abhianv SK" items={navbarItems} />
+      <Navbar logo="Abhinav Khot" items={navbarItems} />
 
       <center
         style={{
