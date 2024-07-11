@@ -9,7 +9,7 @@ interface Props {
 const Card = ({ title, children, buttonLink, buttonImageName }: Props) => {
   return (
     <>
-      <div className="card border-light mb-3 text-light bg-dark">
+      <div className="card border-dark mb-3 text-light bg-dark">
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{children}</p>
