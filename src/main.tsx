@@ -8,6 +8,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Project from "./pages/Project.tsx";
 import Interests from "./pages/Interests.tsx";
+import CP from "./pages/CP.tsx";
 
 const router = createBrowserRouter(
   [
@@ -22,6 +23,10 @@ const router = createBrowserRouter(
     {
       path: "/Interests",
       element: <Interests />,
+    },
+    {
+      path: "/CP",
+      element: <CP />,
     },
   ],
   {

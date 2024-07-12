@@ -1,0 +1,29 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+}
+
+.links-container {
+  margin-left: 5vh;
+  padding-left: 4vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+}
+
+.icon {
+  width: 40%;
+  height: 40%;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+}

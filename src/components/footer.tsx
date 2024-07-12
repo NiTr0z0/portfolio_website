@@ -13,7 +13,7 @@ const Footer = () => {
 
           <a
             className="btn btn-outline-light btn-floating m-1"
-            href="https://www.linkedin.com/in/abhinav-s-k-104b0327b/"
+            href="https://www.linkedin.com/in/abhinav-khot-104b0327b/"
             role="button"
           >
             <i className="bi bi-linkedin"></i>
