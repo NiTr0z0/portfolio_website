@@ -1,4 +1,5 @@
 .page-container {
+  margin-left: 3vh;
   display: flex;
   flex-direction: column;
   gap: 10vh;
@@ -8,14 +9,12 @@
 }
 
 .links-container {
-  margin-left: 5vh;
-  padding-left: 4vh;
+  margin-left: 1.5vh;
   align-items: center;
   justify-content: center;
   margin-top: 3vh;
   display: flex;
   flex-direction: row;
-  gap: 10vh;
 }
 
 .icon {
@@ -26,4 +25,6 @@
 .main-page {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
