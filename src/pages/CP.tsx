@@ -16,11 +16,12 @@ const CP = () => {
         </h3>
         <div className="links-container">
           <a href="https://leetcode.com/u/skabhinav018/" className="icon">
-            <img className="icon" src={leedCodeLogo} alt="leetcode"></img>
+            <img src={leedCodeLogo} alt="leetcode"></img>
+            <p></p>
             <figcaption font-family="arial">LeetCode</figcaption>
           </a>
           <a href="https://codeforces.com/profile/gh0ul__" className="icon">
-            <img className="icon" src={cfLogo} alt="cf"></img>
+            <img src={cfLogo} alt="cf"></img>
             <figcaption font-family="arial">CodeForces</figcaption>
           </a>
         </div>
